@@ -1,0 +1,192 @@
+/* Reset e body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F4EEE6;
+    color: #002340;
+}
+
+/* Header */
+
+header {
+    background-color: #F4EEE6;
+    padding: 5px 15px; 
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 2px solid #D22328;
+}
+  
+.logo {
+    width: 100px; 
+}
+  
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: #002340;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #D22328;
+    text-decoration: underline;
+}
+
+/* Inicio Section */
+.inicio {
+    padding: 150px 20px 60px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid red;
+}
+
+.inicio h1 {
+    font-size: 2.5rem;
+    color: #002340;
+}
+
+.inicio p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* content-section */
+.content-section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #002340;
+}
+
+.content-section article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #D22328;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #D22328;
+    color: #fff;
+}
+
+/* Lista de times */
+ul {
+    padding-left: 20px;
+    color: #002340;
+}
+
+/* Contato */
+
+.negrito{
+    color: #D22328;
+}
+
+#contato ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+      
+#contato li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+      
+#contato a {
+    color: #D22328;
+    text-decoration: none;
+}
+      
+#contato a:hover {
+    text-decoration: underline;
+      }
+
+/* Footer */
+footer {
+    background-color: #002340;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+/* Ajustes */
+
+section {
+    scroll-margin-top: 80px; 
+    padding-top: 30px;
+  }
+  
