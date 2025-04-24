@@ -1,1 +1,1 @@
-http://127.0.0.1:5500/index.html
+https://otavio-sanches.github.io/sport_news/
