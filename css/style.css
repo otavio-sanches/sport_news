@@ -62,19 +62,26 @@ nav ul li a:hover {
 .inicio {
     padding: 150px 20px 60px;
     text-align: center;
-    background-color: #fff;
-    border: 2px solid red;
+    background: url(../img/banner.png ) no-repeat center/cover;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 .inicio h1 {
     font-size: 2.5rem;
-    color: #002340;
+    color: #ddd;
+    text-shadow: 2px 2px 5px #b3b3b3;
 }
 
 .inicio p {
     font-size: 1.2rem;
-    color: #555;
+    color: #F4EEE6;
     margin-top: 10px;
+    text-shadow: 2px 2px 5px #fff;
 }
 
 /* Tabela */
