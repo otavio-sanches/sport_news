@@ -84,6 +84,10 @@ nav ul li a:hover {
     text-shadow: 2px 2px 5px #fff;
 }
 
+section{
+    scroll-margin-top: 340px;
+}
+
 /* Noticias */
 .noticia {
     display: flex;
@@ -198,14 +202,13 @@ footer {
     .banner{
         margin-top: 160px;
     }
+
+    section{
+        scroll-margin-top: 740px;
+    }
 }
 
 /* Ajustes */
-
-section {
-    scroll-margin-top: 120px; 
-    padding-top: 30px;
-}
 
 .content-section {
     padding: 60px 20px;
